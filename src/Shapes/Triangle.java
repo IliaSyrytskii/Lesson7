@@ -17,7 +17,7 @@ public class Triangle extends Shape {
 
     @Override
     int getSquare() {
-        return 1/2 * y * h;
+        return (y * h) / 2;
     }
 
 }
